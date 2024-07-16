@@ -45,6 +45,78 @@ body{
 .navbar-container i{
     display: none;
 }
+.explore-section-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 31.25rem;
+    /* border: 2px solid tomato; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.explore-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%,rgba(19, 19, 24, 0) 100%), 
+    url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 31.25rem;
+    border-radius: 16px;
+    border: none;
+}
+.explore-section-content h3{
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.explore-section-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    width: 676px;
+    text-align: center;
+    margin-top: 24px;
+}
+.travel-input-container{
+    margin-top: 3.5rem;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+.travel-input-container input,select{
+    width: 174px;
+    height: 52px;
+    padding: 0 0.5rem;
+    margin: 0 1rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgba(19, 19, 24, 0.5);
+}
+.primary-btn{
+    width: 174px;
+    height: 52px;
+    padding: 0 0.5rem;
+    margin: 0 1rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background: rgb(255, 84, 0);
+    gap: 8px;
+    padding: 0.7rem 1.5rem;
+    color: rgb(255, 255, 255);
+}
 
 
 
@@ -65,7 +137,39 @@ body{
         margin-right: 0.625rem;
         cursor: pointer;
     }
-
+    .explore-section-container{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .explore-section-content{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 17px;
+    }
+    .explore-section-content p ,h3 {
+        width:90%;
+        margin: 0 auto;
+        
+    }
+    .explore-section-content p{
+        margin-top: 8px;
+    }
+    .explore-section-content h3 {
+        font-size: 22px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 8px;
+        margin-top: 32px;
+    }
+    .travel-input-container{
+        flex-direction: column;
+        height: 288px;
+    }
+    .travel-input-container input,select,.primary-btn{
+        width: 255px;
+        height: 52px;
+    }
 
 
 
